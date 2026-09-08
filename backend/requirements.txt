@@ -1,2 +1,12 @@
+# SIH26034 backend — direct dependencies only.
+# Transitive packages (opencv-contrib-python, numpy, shapely, etc.) are
+# installed automatically by paddleocr/paddlepaddle and are intentionally
+# not listed here.
+
+# Web framework
 fastapi
 uvicorn[standard]
+
+# OCR engine (versions verified against Python 3.13.5)
+paddlepaddle==3.3.1
+paddleocr==3.7.0
