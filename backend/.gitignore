@@ -8,3 +8,14 @@ __pycache__/
 
 # Environment files
 .env*
+
+# Local product test images (not part of the repo)
+# Preferred: keep sample/test images under this directory going forward.
+test-images/
+# Any product test images dropped directly in backend/ (e.g. boost.png,
+# amul_icecream.jpeg). These are local inputs, not repo assets — do not move them.
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.bmp
